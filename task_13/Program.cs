@@ -2,7 +2,7 @@
 Console.Clear();
 
  Console.Write("Введите число: ");
- int n = Int32.Parse(Console.ReadLine());
+ int n = Convert.ToInt32(Console.ReadLine());
  int result = 0;
  
  while (n > 0) 
